@@ -1,0 +1,6 @@
+
+```bash
+which java
+```
+
+

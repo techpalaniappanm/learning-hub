@@ -4,7 +4,7 @@ import whisperx
 import datetime
 import torch # WhisperX relies on PyTorch
 
-def format_timestamp_ دقیق(seconds):
+def format_timestamp(seconds):
     """Converts seconds to HH:MM:SS.mmm format."""
     td = datetime.timedelta(seconds=seconds)
     hours, remainder = divmod(td.seconds, 3600)
